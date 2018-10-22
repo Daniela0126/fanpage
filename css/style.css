@@ -17,3 +17,29 @@ a {
     width: 30px;
     margin: 15px;
 }
+.header{
+    text-align: center;
+    font-size: 50px;
+    padding: 25px;
+}
+.navbar{
+    display: flex;
+    justify-content: space-around;
+}
+.thing{
+    font-size: 20px;
+}
+.gallery{
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+}
+.thumbnail{
+    display: flex;
+    justify-content: center;
+}
+.thumbnail-image{
+    height: 50px;
+    width: 50px;
+    margin: 5%;
+}

@@ -1,10 +1,12 @@
 html {
     height: 100%;
+    background-image: url("http://bit.ly/2gPLxZ4");
+    background-attachment: fixed;
+    background-size: 150%;
 }
 
 body {
     height: 100%;
-    
 }
 a {
     text-decoration: none;
@@ -28,6 +30,8 @@ a {
 }
 .thing{
     font-size: 20px;
+    color: white;
+    text-decoration: underline;
 }
 .gallery{
     display: flex;
@@ -39,7 +43,35 @@ a {
     justify-content: center;
 }
 .thumbnail-image{
-    height: 50px;
-    width: 50px;
-    margin: 5%;
+    width: 500px;
+    height: 500px;
+    margin-top: 105px;
+    margin-right: 15px;
+    border-color: #7575a3;
+    border: solid 5px;
+}
+.header{
+    width: 100%;
+    color: #0000ff;
+    background-color: #ff0000;
+    border: solid 7px;
+    border-color: blue;
+    margin-bottom: 15px;
+    border-style: groove;
+}
+.aboutMain{
+    display: flex;
+}
+.leftPane{
+    width: 30%;
+    height: 100%;
+    color: white;
+    font-size: 25px;
+    font-family: 'Krub', sans-serif;
+}
+.rightPane{
+    width: 70%;
+    background-image: url("http://www.national-geographic.pl/media/cache/default_view/uploads/media/default/0001/90/4551ef245832e253ed9968eb39f9a9a2f92579f8.jpeg");
+    background-repeat: no-repeat;
+
 }

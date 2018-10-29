@@ -1,8 +1,8 @@
 html {
     height: 100%;
-    background-image: url("http://bit.ly/2gPLxZ4");
+    background-image: url("https://ak8.picdn.net/shutterstock/videos/18933008/thumb/1.jpg");
     background-attachment: fixed;
-    background-size: 150%;
+
 }
 
 body {
@@ -13,7 +13,13 @@ a {
 }
 
 .main {
+    background-image: url("https://cn.wahooart.com/Art.nsf/O/9CWBP9/$File/Karl+Bodmer-Indians+Hunting+The+Bison.JPG");
     height: 100%;
+    width: 100%;
+    background-repeat: no-repeat;
+    background-size: auto;
+    background-position: center;
+    margin-top: 10px;
 }
 .social-image{
     width: 30px;
@@ -22,7 +28,14 @@ a {
 .header{
     text-align: center;
     font-size: 50px;
-    padding: 25px;
+    padding: 20px;
+    width: 100%;
+    color: #0000ff;
+    background-color: black;
+    border: solid ;
+    border-color: blue;
+    margin-bottom: 15px;
+    border-style: groove;
 }
 .navbar{
     display: flex;
@@ -40,7 +53,7 @@ a {
 }
 .thumbnail{
     display: flex;
-    justify-content: center;
+    justify-content: space-around;
 }
 .thumbnail-image{
     width: 500px;
@@ -48,16 +61,7 @@ a {
     margin-top: 105px;
     margin-right: 15px;
     border-color: #7575a3;
-    border: solid 5px;
-}
-.header{
-    width: 100%;
-    color: #0000ff;
-    background-color: #ff0000;
-    border: solid 7px;
-    border-color: blue;
-    margin-bottom: 15px;
-    border-style: groove;
+    border: solid black;
 }
 .aboutMain{
     display: flex;
@@ -68,10 +72,17 @@ a {
     color: white;
     font-size: 25px;
     font-family: 'Krub', sans-serif;
+    margin-top: 15px;
+    margin-right: 5px;
+    text-align: justify;
 }
 .rightPane{
     width: 70%;
     background-image: url("http://www.national-geographic.pl/media/cache/default_view/uploads/media/default/0001/90/4551ef245832e253ed9968eb39f9a9a2f92579f8.jpeg");
     background-repeat: no-repeat;
-
+    margin-top: 15px;
+}
+.copy{
+    color: white;
+    margin-bottom: 5px;
 }
